@@ -1,11 +1,14 @@
 # OVH
 Python to generate Overlap Volume Histogram from DICOM file
 
+
+#Description
+
 Filename: ovhcalc.py
 
-Description: the file contains method calculating OVH graph from rtss DICOM file by identifying the ROI number of 2 organs. It also returns a dict with min_Dis and max_Dis for x-axis, and a list for OVH plot.
+The file contains method calculating OVH graph from rtss DICOM file by identifying the ROI number of 2 organs. It also returns a dict with min_Dis and max_Dis for x-axis, and a list for OVH plot.
 
-Main function: 
+# Main function 
 calculate_ovh(structure, ptv_ori, non_ptv_roi, wplt=False): 
 Wplt: True: show OVH graph
                     
@@ -17,7 +20,7 @@ Extract the CDF of the distance array, which is the required OVH plot. The funct
 Main(): 
 This function prints all the PTVs and Organs, and outputs OVH graph for selected PTV and Organ.
 
-Usage:
+# Usage:
 
 Python ovhcalc.py
 Then all the PTVs and Organs will be printed with (ID: Name)
@@ -29,3 +32,9 @@ ID: Name
 ID: Name
 
 The user could select a PTV ID and a organ ID to calculate, finally a OVH figure will be saved to the same folder.
+
+# Installation
+
+pip install -r requirements.txt
+
+* The script is tested in Python2
