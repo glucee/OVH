@@ -162,10 +162,10 @@ def main():
 		ptv_rois.append(RTstructures[i]['id'])
 	    else:
 		non_ptv_rois.append(RTstructures[i]['id'])
-	print '-------PTV-------'
+	print '-------All Target and Organs-------'
 	for i in range(0, len(ptv_rois)):
 	    print ("%d:")%RTstructures[ptv_rois[i]]['id']+ " "+ RTstructures[ptv_rois[i]]['name'] 
-	print '-----Non-PTV-----'
+	#print '-----Non-PTV-----'
 	for i in range(0, len(non_ptv_rois)):
 	    print ("%d:")%RTstructures[non_ptv_rois[i]]['id'] + " " +RTstructures[non_ptv_rois[i]]['name'] 
 

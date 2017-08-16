@@ -23,13 +23,8 @@ This function prints all the PTVs and Organs, and outputs OVH graph for selected
 # Usage:
 
 Python ovhcalc.py
+
 Then all the PTVs and Organs will be printed with (ID: Name)
-
-------PTV------
-ID: Name
-
-------Non-PTV------
-ID: Name
 
 The user could select a PTV ID and a organ ID to calculate, finally a OVH figure will be saved to the same folder.
 
